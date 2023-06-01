@@ -1,0 +1,196 @@
+\usepackage{enumerate} 
+\usepackage{url}
+\usepackage{pifont}
+\usepackage{epstopdf}
+\usepackage[bitstream-charter]{mathdesign}
+\usepackage[T1]{fontenc}
+\usepackage[dvips]{psfrag}
+\usepackage[pdf]{pstricks}
+\usepackage{float,minitoc}
+\usepackage{xcolor}
+%\usepackage{subfig}
+\usepackage{setspace}
+%\onehalfspacing
+\doublespacing
+\usepackage{mathrsfs,mathtools,latexsym}
+\usepackage{amscd,amsfonts,amssymb,amsmath}
+\usepackage{graphicx,graphics,color}
+\usepackage{geometry,setspace,parskip}
+%\usepackage[bookmarksnumbered, colorlinks, plainpages]{hyperref}
+%\hypersetup{colorlinks=true,linkcolor=red,anchorcolor=green,citecolor=cyan,urlcolor=red,filecolor=magenta,pdftoolbar=true}
+%\usepackage{makeidx}
+%\usepackage{multirow}
+%\usepackage{eurosym}
+\usepackage{subfigure}
+%\usepackage{hyperref}
+%\usepackage{fancyhdr}
+%\usepackage{tocbibind}
+%\usepackage[decmulti]{inputenc}
+%\usepackage[active]{srcltx}
+%\usepackage[english]{babel}
+% \usepackage{lmodern}
+% \usepackage{scrextend}
+% \changefontsizes[20pt]{16pt}
+
+\usepackage{mathtools,latexsym,amsfonts,amssymb,xcolor,xurl,amsmath}
+
+\usepackage{comment} %%Este paquete es para comentar secciones de texto muy largas
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{scholium}[theorem]{Scholium}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+
+%\newenvironment{proof}{\noindent {\tt Proof.}}{\hfill $\square${}\newline}
+
+\numberwithin{equation}{section}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+%\renewcommand{\C}{\mathbb{C}}
+\newcommand{\Hq}{\mathbb{H}}
+\newcommand{\Qp}{\mathbb{Q}_{\mathtt{p}}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\I}{\mathrm{I}}
+\newcommand{\Po}{\mathcal{P}}
+\newcommand{\Bo}{\mathcal{B}}
+\newcommand{\Co}{\mathcal{C}}
+%\renewcommand{\G}{\mathbb{G}}
+\newcommand{\Ne}{\mathcal{N}}
+\newcommand{\BL}{\mathscr{B}}
+\newcommand{\Li}{\mathcal{L}}
+\newcommand{\Lip}{\mathrm{Lip}}
+\newcommand{\Un}{\mathcal{U}}
+\newcommand{\ob}{\mathrm{ob}}
+\newcommand{\mor}{\mathrm{mor}}
+\newcommand{\mon}{\mathrm{mon}}
+\newcommand{\aff}{\mathrm{aff}}
+\newcommand{\inte}{\mathrm{int}}
+\newcommand{\cl}{\mathrm{cl}}
+\newcommand{\bd}{\mathrm{bd}}
+\newcommand{\spa}{\mathrm{span}}
+\newcommand{\hull}{\mathrm{hull}}
+\newcommand{\co}{\mathrm{co}}
+\newcommand{\ba}{\mathrm{ba}}
+\newcommand{\aco}{\mathrm{aco}}
+\newcommand{\cspan}{\overline{\spa}}
+\newcommand{\cco}{\overline{\mathrm{co}}}
+\newcommand{\cba}{\overline{\mathrm{ba}}}
+\newcommand{\caco}{\overline{\mathrm{aco}}}
+\newcommand{\sgn}{\mathrm{sgn}}
+\newcommand{\inn}{\mathrm{inn}}
+\newcommand{\inter}{\mathrm{inter}}
+\newcommand{\ainter}{\mathrm{ainter}}
+\newcommand{\st}{\operatorname{st}}
+\newcommand{\diam}{\mathrm{diam}}
+%\newcommand{\iadj}{\mathrm{iadj}}
+\newcommand{\adj}{\mathrm{adj}}
+%\newcommand{\siadj}{\mathrm{siadj}}
+\newcommand{\sadj}{\mathrm{sadj}}
+\newcommand{\out}{\mathrm{out}}
+\newcommand{\shl}{\mathrm{shl}}
+\newcommand{\lcl}{\mathrm{lcl}}
+\newcommand{\supp}{\mathrm{supp}}
+\newcommand{\nsupp}{\mathrm{nsupp}}
+\newcommand{\csupp}{\overline{\supp}}
+\newcommand{\suppv}{\mathrm{suppv}}
+%\newcommand{\suppv}{\mathrm{suppv}}
+\newcommand{\suppvu}{\suppv_{\mathtt{1}}}
+\newcommand{\suppw}{\suppv_{w^*}}
+\newcommand{\gsuppv}{\mathrm{gsuppv}}
+\newcommand{\ext}{\mathrm{ext}}
+\newcommand{\extl}{\mathrm{extl}}
+\newcommand{\frm}{\mathrm{frm}}
+\newcommand{\wsexp}{\mathrm{exp}^{w^*}}
+\newcommand{\sexp}{\mathrm{sexp}}
+\newcommand{\wssexp}{\mathrm{sexp}^{w^*}}
+\newcommand{\smo}{\mathrm{smo}}
+\newcommand{\smow}{\smo_{w^*}}
+\newcommand{\rot}{\mathrm{rot}}
+\newcommand{\pexp}{\mathrm{pexp}}
+\newcommand{\card}{\mathrm{card}}
+\newcommand{\chara}{\mathrm{char}}
+\newcommand{\den}{\mathrm{den}}
+\newcommand{\B}{\mathsf{B}}
+%\renewcommand{\U}{\mathsf{U}}
+\newcommand{\E}{\mathsf{S}}
+\newcommand{\Sp}{\mathsf{S}}
+\newcommand{\J}{\mathsf{J}}
+\newcommand{\NA}{\mathsf{NA}}
+\newcommand{\eL}{\mathsf{L}}
+\newcommand{\AC}{\mathrm{AC}}
+\newcommand{\wAC}{\mathrm{wAC}}
+\newcommand{\wsAC}{\mathrm{w^*AC}}
+\newcommand{\AClim}{\AC\lim}
+\newcommand{\wAClim}{\wAC\lim}
+\newcommand{\wsAClim}{\wsAC\lim}
+\newcommand{\ACS}{\AC\sum}
+\newcommand{\wACS}{\wAC\sum}
+\newcommand{\wsACS}{\wsAC\sum}
+\newcommand{\w}{\mathrm{w}\lim}
+\newcommand{\ws}{\mathrm{w^*}\lim}
+\newcommand{\argmax}{\mathrm{arg}\max}
+\newcommand{\argmin}{\mathrm{arg}\min}
+\newcommand{\claus}{\hspace{1pt}\mbox{cl}\hspace{1pt}}
+
+
+
+
+
+%\newcommand{\inter}{\hspace{1pt}\mbox{int}\hspace{1pt}}
+\newcommand{\bound}{\hspace{1pt}\mbox{bd}\hspace{1pt}}
+\newcommand{\bl}{\hspace{1pt}\mbox{bl}\hspace{1pt}}
+\newcommand{\ld}{\ell\mathit{d}}
+\newcommand{\rd}{\mathit{rd}}
+\newcommand{\tld}{\mathit{t}\ell\mathit{d}}
+\newcommand{\trd}{\mathit{trd}}
+
+\include{MacrosTFG}
+
+\renewcommand{\baselinestretch}{1.7}
+
+
+
+
+
+\pdfinfo { /Title (TFG)
+/Creator (TeX)
+/Producer (pdfTeX)
+/Author (Name surname) 
+/CreationDate (D:DDMMYYYhhmmss) 
+/ModDate (D:DDMMYYYhhmm)
+/Subject (xyz) 
+/Keywords (keyword1, keyword2, keyword3) } 
+\pdfcatalog { /PageMode (/UseOutlines)
+/OpenAction (fitbh) }
+
+
+\crest{\includegraphics[width=3.5cm]{SelloUCA.jpg}}
+
+
+\title{GEOMETRIC INVARIANTS AND INNER STRUCTURE} 
+\author{\LARGE Almudena Campos Jim\'enez\newpage}
+\textadvisor{\includegraphics[width=3cm]{SelloUCA.jpg}\\ \LARGE{GEOMETRIC INVARIANTS AND INNER STRUCTURE}\\\vspace{2cm} \large{Director:\,\,}}
+\advisor{Dr. Francisco Javier Garc\'ia Pacheco\\\vspace{1.5cm}}
+\advisortwo{} 
+\textsignaturecandidate{Firma del Doctorando}
+\textsignatureadvisor{Firma del Director}
+\cityofbirth{C\'adiz}
+\degreedate{Septiembre 2023}
+
+
+
+\hbadness=10000
+\hfuzz=50pt
